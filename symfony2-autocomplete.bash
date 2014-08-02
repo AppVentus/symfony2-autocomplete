@@ -51,6 +51,7 @@ HEREDOC
     return 0;
 }
 
+complete -F _console sf
 complete -F _console console
 complete -F _console console-dev
 complete -F _console console-test
